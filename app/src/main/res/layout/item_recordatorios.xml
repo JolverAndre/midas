@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvprospecto_itemrecordatorios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="prospecto de prueba"
+        android:textColor="@color/primary_text"
+        android:padding="10dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/tvdetalles_itemrecordatorios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="detalle de prueba"
+        android:textColor="@color/primary_text"
+        android:padding="10dp"
+        android:textSize="14dp"
+        />
+    <TextView
+        android:id="@+id/tvlugar_itemrecordatorios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lugar de prueba"
+        android:textColor="@color/primary_text"
+        android:padding="10dp"
+        android:textSize="14dp"
+        />
+    <TextView
+        android:id="@+id/tvfecha_itemrecordatorios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fecha de prueba"
+        android:textColor="@color/primary_text"
+        android:padding="10dp"
+        android:textSize="14dp"
+        />
+    <LinearLayout
+        android:background="@drawable/mapplaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"></LinearLayout>
+</LinearLayout>
