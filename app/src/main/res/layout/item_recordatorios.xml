@@ -39,8 +39,8 @@
         android:padding="10dp"
         android:textSize="14dp"
         />
-    <LinearLayout
-        android:background="@drawable/mapplaceholder"
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
         android:layout_width="match_parent"
-        android:layout_height="150dp"></LinearLayout>
+        android:layout_height="150dp"/>
 </LinearLayout>
